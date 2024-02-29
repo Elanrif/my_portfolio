@@ -2,7 +2,7 @@ import React from "react";
 
 export default function MainLeft() {
   return (
-    <div>
+    <div id="propos">
       <div className="text-3xl text-gray-500  font-black">
         <h1>Bonjour à tous !.</h1>
         <h2>Je suis EL-anrif Said Baco.</h2>

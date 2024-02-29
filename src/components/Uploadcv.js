@@ -39,6 +39,18 @@ export default function Uploadcv() {
     }
   };
 
+  const handleClick = ()=>{
+
+    setTimeout(() => {
+       if (!success) {
+         window.open(
+           "https://drive.google.com/file/d/1HLiy1A6ACBnoUxU348rCi4kKETGqC-sC/view?usp=sharing",
+           "_blank"
+         );
+       }
+    }, 1500);
+      
+  }
   return (
     <Box sx={{ display: "flex", alignItems: "center" }}>
       <Box sx={{ m: 1, position: "relative" }}>
@@ -48,7 +60,11 @@ export default function Uploadcv() {
           sx={buttonSx}
           onClick={handleButtonClick}
         >
-          {success ? <CheckIcon /> : <CloudDownloadIcon />}
+          {success ? (
+            <CheckIcon />
+          ) : (
+            <CloudDownloadIcon onClick={handleClick} />
+          )}
         </Fab>
         {loading && (
           <CircularProgress
@@ -64,14 +80,17 @@ export default function Uploadcv() {
         )}
       </Box>
       <Box sx={{ m: 1, position: "relative" }}>
-        <Button
-          variant="contained"
-          sx={buttonSx}
-          disabled={loading}
-          onClick={handleButtonClick}
-        >
-          {success ? "cv téléchargé" : "Télecharger cv"}
-        </Button>
+        {/* https://drive.google.com/file/d/1HLiy1A6ACBnoUxU348rCi4kKETGqC-sC/view?usp=sharing */}
+        <a onClick={handleClick}>
+          <Button
+            variant="contained"
+            sx={buttonSx}
+            disabled={loading}
+            onClick={handleButtonClick}
+          >
+            {success ? "cv téléchargé" : "Télecharger cv"}
+          </Button>
+        </a>
         {loading && (
           <CircularProgress
             size={24}

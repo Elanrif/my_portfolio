@@ -17,6 +17,18 @@ export default function CompetenceLeft() {
             defaultValue={70}
             aria-label="Default"
             valueLabelDisplay="auto"
+            disabled
+            sx={{
+              "& .MuiSlider-thumb": {
+                backgroundColor: "blue", // Couleur du curseur
+              },
+              "& .MuiSlider-rail": {
+                backgroundColor: "gray", // Couleur de la barre arrière
+              },
+              "& .MuiSlider-track": {
+                backgroundColor: "blue", // Couleur de la barre avant
+              },
+            }}
           />
         </Box>
 
@@ -26,6 +38,18 @@ export default function CompetenceLeft() {
             defaultValue={50}
             aria-label="Default"
             valueLabelDisplay="auto"
+            disabled
+            sx={{
+              "& .MuiSlider-thumb": {
+                backgroundColor: "blue", // Couleur du curseur
+              },
+              "& .MuiSlider-rail": {
+                backgroundColor: "gray", // Couleur de la barre arrière
+              },
+              "& .MuiSlider-track": {
+                backgroundColor: "blue", // Couleur de la barre avant
+              },
+            }}
           />
         </Box>
       </div>
@@ -40,6 +64,18 @@ export default function CompetenceLeft() {
             defaultValue={90}
             aria-label="Default"
             valueLabelDisplay="auto"
+            disabled
+            sx={{
+              "& .MuiSlider-thumb": {
+                backgroundColor: "blue", // Couleur du curseur
+              },
+              "& .MuiSlider-rail": {
+                backgroundColor: "gray", // Couleur de la barre arrière
+              },
+              "& .MuiSlider-track": {
+                backgroundColor: "blue", // Couleur de la barre avant
+              },
+            }}
           />
         </Box>
 
@@ -49,6 +85,18 @@ export default function CompetenceLeft() {
             defaultValue={30}
             aria-label="Default"
             valueLabelDisplay="auto"
+            disabled
+            sx={{
+              "& .MuiSlider-thumb": {
+                backgroundColor: "blue", // Couleur du curseur
+              },
+              "& .MuiSlider-rail": {
+                backgroundColor: "gray", // Couleur de la barre arrière
+              },
+              "& .MuiSlider-track": {
+                backgroundColor: "blue", // Couleur de la barre avant
+              },
+            }}
           />
         </Box>
         <Box sx={{ width: 600 }}>
@@ -57,6 +105,18 @@ export default function CompetenceLeft() {
             defaultValue={90}
             aria-label="Default"
             valueLabelDisplay="auto"
+            disabled
+            sx={{
+              "& .MuiSlider-thumb": {
+                backgroundColor: "blue", // Couleur du curseur
+              },
+              "& .MuiSlider-rail": {
+                backgroundColor: "gray", // Couleur de la barre arrière
+              },
+              "& .MuiSlider-track": {
+                backgroundColor: "blue", // Couleur de la barre avant
+              },
+            }}
           />
         </Box>
         <Box sx={{ width: 600 }}>
@@ -65,6 +125,18 @@ export default function CompetenceLeft() {
             defaultValue={90}
             aria-label="Default"
             valueLabelDisplay="auto"
+            disabled
+            sx={{
+              "& .MuiSlider-thumb": {
+                backgroundColor: "blue", // Couleur du curseur
+              },
+              "& .MuiSlider-rail": {
+                backgroundColor: "gray", // Couleur de la barre arrière
+              },
+              "& .MuiSlider-track": {
+                backgroundColor: "blue", // Couleur de la barre avant
+              },
+            }}
           />
         </Box>
         <Box sx={{ width: 600 }}>
@@ -73,6 +145,18 @@ export default function CompetenceLeft() {
             defaultValue={90}
             aria-label="Default"
             valueLabelDisplay="auto"
+            disabled
+            sx={{
+              "& .MuiSlider-thumb": {
+                backgroundColor: "blue", // Couleur du curseur
+              },
+              "& .MuiSlider-rail": {
+                backgroundColor: "gray", // Couleur de la barre arrière
+              },
+              "& .MuiSlider-track": {
+                backgroundColor: "blue", // Couleur de la barre avant
+              },
+            }}
           />
         </Box>
         <Box sx={{ width: 600 }}>
@@ -81,6 +165,18 @@ export default function CompetenceLeft() {
             defaultValue={95}
             aria-label="Default"
             valueLabelDisplay="auto"
+            disabled
+            sx={{
+              "& .MuiSlider-thumb": {
+                backgroundColor: "blue", // Couleur du curseur
+              },
+              "& .MuiSlider-rail": {
+                backgroundColor: "gray", // Couleur de la barre arrière
+              },
+              "& .MuiSlider-track": {
+                backgroundColor: "blue", // Couleur de la barre avant
+              },
+            }}
           />
         </Box>
       </div>

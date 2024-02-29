@@ -8,7 +8,7 @@ export default function Portfolioexp() {
       titre: "Gestion des associations étudiantes",
       paragraphe:
         "Développement d'une plateforme de gestion complète pour les associations étudiantes, utilisant React JS pour le frontend et Spring Boot pour le backend.",
-      image: "",
+      image: "/images/assoe.png",
       lien: "https://github.com/Elanrif/Gestion_des_associations_etudiante",
     },
     {
@@ -30,7 +30,7 @@ export default function Portfolioexp() {
 
   return (
     <>
-      <div className="text-center">
+      <div id="projets" className="mt-10 text-center">
         <h1 className="text-3xl mt-5 font-black"> Projets réalisé </h1>
         <p className="mt-3 max-w-[48rem] mx-auto">
           Voici quelques exemples de projet que j'ai réalisé. n'hésitez pas à y
