@@ -31,24 +31,27 @@ export default function Portfolioexp() {
   return (
     <>
       <div id="projets" className="mt-10 text-center">
-        <h1 className="text-3xl mt-5 font-black"> Projets réalisé </h1>
+        <h1 className="md:text-3xl text-xl mt-5 font-black">
+          {" "}
+          Projets réalisé{" "}
+        </h1>
         <p className="mt-3 max-w-[48rem] mx-auto">
           Voici quelques exemples de projet que j'ai réalisé. n'hésitez pas à y
           aller jéter un coup d'oeil.
         </p>
       </div>
 
-  <div className='flex justify-center'>
-      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-5 justify-center items-center">
-        {projects.map((item,index)=>{
-          return(
-            <div key={index}>
-            <CardGithub data={item}/>
-            </div>
-          )
-        })}
+      <div className="flex justify-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-5 justify-center items-center">
+          {projects.map((item, index) => {
+            return (
+              <div key={index}>
+                <CardGithub data={item} />
+              </div>
+            );
+          })}
+        </div>
       </div>
-  </div>
     </>
   );
 }

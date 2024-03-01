@@ -7,7 +7,7 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
 
 export default function CardGithub({data}) {
   return (
-    <div className="hover:scale-110 shadow-lg hover:shadow-blue-400 duration-300 ease-in-out">
+    <div className="hover:scale-110 shadow-xl hover:shadow-blue-400 duration-300 ease-in-out">
       <Card sx={{ maxWidth: 345, marginTop: 7 ,height:370}}>
         <CardActionArea>
           <CardMedia

@@ -25,7 +25,7 @@ export default function Header() {
 
   return (
     <div className="mt-[3rem]">
-      <h1 id="acceuil" className="text-blue-700 text-6xl font-black mb-10">Portfolio</h1>
+      <h1 id="acceuil" className="text-blue-700 md:text-6xl text-3xl font-black mb-10">Portfolio</h1>
       <div className="hidden md:flex items-center justify-center space-x-5">
         {lien.map((data, index) => (
           <div

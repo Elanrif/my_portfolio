@@ -6,7 +6,7 @@ export default function CompetenceLeft() {
   return (
     <div className="lg:block ">
       <div>
-        <h1 className="font-serif text-4xl font-black text-slate-900 mb-5">
+        <h1 className="font-serif md:text-4xl text-xl font-black text-slate-900 mb-5">
           Back END
         </h1>
         <Box
@@ -71,7 +71,7 @@ export default function CompetenceLeft() {
       </div>
 
       <div>
-        <h1 className="font-serif mt-5 text-4xl font-black text-slate-900 mb-5">
+        <h1 className="font-serif mt-5 md:text-4xl text-xl font-black text-slate-900 mb-5">
           Front END
         </h1>
         <Box

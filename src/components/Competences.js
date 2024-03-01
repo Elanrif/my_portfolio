@@ -17,7 +17,9 @@ export default function Competences() {
   return (
     <>
       <div id="competences" className="text-center my-5">
-        <h1 className="text-3xl text-slate-700 font-black">Compétences </h1>
+        <h1 className="md:text-3xl text-xl text-slate-700 font-black">
+          Compétences{" "}
+        </h1>
         <p className="mt-3 max-w-[48rem] mx-auto">
           Elles sont en constante amélioration, car la joie de ce métier réside
           dans l'apprentissage continu, surtout en étant impliqué, curieux et

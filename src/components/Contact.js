@@ -10,7 +10,10 @@ export default function Contact() {
   return (
     <div id="contact" className="bg-orange-50 p-5 mt-8">
       <div className="my-12 text-center">
-        <h1 className="text-3xl mt-5 font-black"> Contactez-moi </h1>
+        <h1 className="md:text-3xl text-xl mt-5 font-black">
+          {" "}
+          Contactez-moi{" "}
+        </h1>
         <p className="mt-3 max-w-[48rem] mx-auto">
           Je suis ouvert à explorer de nouvelles opportunités professionnelles,
           à participer à des projets innovants et à relever de nouveaux défis
