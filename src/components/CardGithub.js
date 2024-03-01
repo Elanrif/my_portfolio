@@ -8,7 +8,7 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
 export default function CardGithub({data}) {
   return (
     <div className="hover:scale-110 shadow-lg hover:shadow-blue-400 duration-300 ease-in-out">
-      <Card sx={{ maxWidth: 345, marginTop: 7 ,height:400}}>
+      <Card sx={{ maxWidth: 345, marginTop: 7 ,height:370}}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -31,7 +31,7 @@ export default function CardGithub({data}) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="px-3 duration-300 ease-in-out uppercase text-slate-700 hover:text-white py-2 hover:bg-blue-600 bg-slate-100">
+            <button className="px-3 duration-300 ease-in-out uppercase text-slate-700 hover:text-white py-1 hover:bg-blue-600 bg-slate-100">
               Consulter
             </button>
           </a>

@@ -44,7 +44,7 @@ export default function Uploadcv() {
     setTimeout(() => {
        if (!success) {
          window.open(
-           "https://drive.google.com/file/d/1HLiy1A6ACBnoUxU348rCi4kKETGqC-sC/view?usp=sharing",
+           "https://drive.google.com/file/d/12wJJDSesZlx6AvmOGHyY9FctEHSmBcM2/view?usp=sharing",
            "_blank"
          );
        }

@@ -10,7 +10,7 @@ import Competences from "./components/Competences";
 function App() {
   return (
     <div className="mb-10 bg-slate-50">
-      <div className="max-w-[18rem] md:max-w-[42rem] lg:max-w-[84rem] mx-auto">
+      <div className="max-w-[18rem] sm:max-w-[25rem] md:max-w-[42rem] lg:max-w-[60rem] xl:max-w-[76rem] mx-auto">
         <Header />
         <Main />
         <Competences />

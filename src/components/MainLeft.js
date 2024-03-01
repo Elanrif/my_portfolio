@@ -24,9 +24,9 @@ export default function MainLeft() {
             ingénierie informatique à l'Université Abdelmalek Essâadi de Tétouan
           </span>
           .<br />
-          <span className="text-3xl font-black">O</span>riginaire de Comores{" "}
+          <span className="text-3xl font-black">O</span>riginaire des Comores{" "}
           <img src="/images/comores.png" className="inline-flex h-3 w-5" /> ,
-          une ville riche en histoire et en culture. Mon parcours académique et
+          un Pays riche en histoire et en culture. Mon parcours académique et
           mes expériences pratiques m'ont permis de développer une solide
           compréhension des principes fondamentaux de l'informatique, allant de
           la programmation à la conception de systèmes complexes. Je suis motivé

@@ -19,17 +19,29 @@ export default function Contact() {
       </div>
 
       <div className="flex my-5 justify-center">
-        <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5  xl:grid-cols-6 gap-3 justify-center items-center">
+        <div className="grid grid-cols-3 sm:grid-cols-4  gap-3  lg:grid-cols-5  xl:grid-cols-6 lg:gap-3 justify-center items-center">
           <a
             target="_blank"
-            href="https://mail.google.com/"
+            href="https://wa.me/2120679722069"
+            className="group hover:cursor-pointer duration-300 ease-in-out text-center"
+          >
+            <WhatsAppIcon
+              sx={{ fontSize: 40 }}
+              className="text-green-500 duration-300 ease-in-out group-hover:scale-125"
+            />
+            <p className="text-slate-600 sm:hidden md:block">WhatsApp</p>
+          </a>
+
+          <a
+            target="_blank"
+            href="mailto:saidbacoelanrif@gmail.com"
             className="group hover:cursor-pointer text-center"
           >
             <MarkEmailUnreadIcon
               sx={{ fontSize: 40 }}
               className="text-red-600 duration-300 ease-in-out group-hover:scale-125"
             />
-            <p className="text-slate-600">saidbaco<br/>elanrif@gmail.com</p>
+            <p className="text-slate-600 sm:hidden md:block">E-mail</p>
           </a>
           <a
             target="_blank"
@@ -40,7 +52,7 @@ export default function Contact() {
               sx={{ fontSize: 40 }}
               className="text-blue-700 duration-300 ease-in-out group-hover:scale-125"
             />
-            <p className="text-slate-600 ">Facebook</p>
+            <p className="text-slate-600 sm:hidden md:block">Facebook</p>
           </a>
           <a
             target="_blank"
@@ -51,30 +63,20 @@ export default function Contact() {
               sx={{ fontSize: 40 }}
               className="text-black duration-300 ease-in-out group-hover:scale-125"
             />
-            <p className="text-slate-600 ">Github</p>
+            <p className="text-slate-600 sm:hidden md:block">Github</p>
           </a>
           <a
             target="_blank"
-            href="www.linkedin.com/in/el-anrif-saidbaco-5633222a5"
+            href="https://www.linkedin.com/in/el-anrif-saidbaco-5633222a5/"
             className="group hover:cursor-pointer duration-300 ease-in-out text-center"
           >
             <LinkedInIcon
               sx={{ fontSize: 40 }}
               className="text-blue-500 duration-300 ease-in-out group-hover:scale-125"
             />
-            <p className="text-slate-600 ">Linkedin</p>
+            <p className="text-slate-600 sm:hidden md:block">Linkedin</p>
           </a>
-          <a
-            target="_blank"
-            href="https://web.whatsapp.com/"
-            className="group hover:cursor-pointer duration-300 ease-in-out text-center"
-          >
-            <WhatsAppIcon
-              sx={{ fontSize: 40 }}
-              className="text-green-500 duration-300 ease-in-out group-hover:scale-125"
-            />
-            <p className="text-slate-600 ">+212 0679722069</p>
-          </a>
+
           <a
             target="_blank"
             href="https://www.instagram.com/elanrifsaidbaco/"
@@ -84,7 +86,7 @@ export default function Contact() {
               sx={{ fontSize: 40 }}
               className="text-orange-500 duration-300 ease-in-out group-hover:scale-125"
             />
-            <p className="text-slate-600 ">Instagram</p>
+            <p className="text-slate-600 sm:hidden md:block">Instagram</p>
           </a>
         </div>
       </div>
