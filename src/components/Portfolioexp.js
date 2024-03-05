@@ -9,21 +9,30 @@ export default function Portfolioexp() {
       paragraphe:
         "Développement d'une plateforme de gestion complète pour les associations étudiantes, utilisant React JS pour le frontend et Spring Boot pour le backend.",
       image: "/images/assoe.png",
-      lien: "https://github.com/Elanrif/Gestion_des_associations_etudiante",
+      lien: {
+        github: "https://github.com/Elanrif/Gestion_des_associations_etudiante",
+        website: "https://gestion-centre-formation.vercel.app/",
+      },
     },
     {
       titre: "Gestion de vente d'articles",
       paragraphe:
         "Développement d'une application de gestion de vente de commerce électronique, utilisant Spring boot pour le backend et React Js pour le frontend.",
       image: "/images/vente.png",
-      lien: "https://github.com/Elanrif/full_stack_gestion_vente_article",
+      lien: {
+        github: "https://github.com/Elanrif/full_stack_gestion_vente_article",
+        website: "https://gestion-centre-formation.vercel.app/",
+      },
     },
     {
       titre: "Gestion de centre de formation",
       paragraphe:
         "Développement d'un système de gestion pour un centre de formation , utilisant principalement Spring Boot , ReactJs pour le frontend et Node.js pour le backend.",
       image: "/images/centre-formation.png",
-      lien: "https://github.com/Elanrif/gestion_centre_formation",
+      lien: {
+        github: "https://github.com/Elanrif/gestion_centre_formation",
+        website: "https://gestion-centre-formation.vercel.app/",
+      },
     },
   ];
 

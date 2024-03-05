@@ -4,11 +4,16 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Button, CardActionArea, CardActions } from "@mui/material";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LanguageIcon from "@mui/icons-material/Language";
+import IconButton from "@mui/material/IconButton";
+import Tooltip from "@mui/material/Tooltip";
+
 
 export default function CardGithub({data}) {
   return (
     <div className="hover:scale-110 shadow-xl hover:shadow-blue-400 duration-300 ease-in-out">
-      <Card sx={{ maxWidth: 345, marginTop: 7 ,height:370}}>
+      <Card sx={{ maxWidth: 345, marginTop: 7, height: 370 }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -26,14 +31,23 @@ export default function CardGithub({data}) {
           </CardContent>
         </CardActionArea>
         <CardActions>
+          <a href={data.lien?.github} target="_blank" rel="noopener noreferrer">
+            <Tooltip title="Github" arrow>
+              <IconButton>
+                <GitHubIcon />
+              </IconButton>
+            </Tooltip>
+          </a>
           <a
-            href={data.lien}
+            href={data.lien?.website}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="px-3 duration-300 ease-in-out uppercase text-slate-700 hover:text-white py-1 hover:bg-blue-600 bg-slate-100">
-              Consulter
-            </button>
+            <Tooltip title="Site web" arrow>
+              <IconButton>
+                <LanguageIcon />
+              </IconButton>
+            </Tooltip>
           </a>
         </CardActions>
       </Card>
